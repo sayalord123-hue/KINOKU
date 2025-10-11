@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Account - Kinobox</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body class="bg-gray-900 text-white font-sans">
+    <!-- Header -->
+    <header
+      class="flex justify-between items-center px-6 py-4 bg-gray-950 border-b border-gray-800"
+    >
+      <h1 class="text-2xl font-bold text-red-600">Kinobox</h1>
+      <nav class="space-x-6">
+        <a href="homepage.html" class="hover:text-red-500">Home</a>
+        <a href="#" class="hover:text-red-500">Movies</a>
+        <a href="#" class="hover:text-red-500">Series</a>
+        <a href="#" class="text-red-500 font-semibold">Account</a>
+      </nav>
+    </header>
+
+    <!-- Account Page -->
+    <main class="max-w-4xl mx-auto p-8">
+      <h2 class="text-3xl font-bold mb-6">My Account</h2>
+
+      <!-- User Info Section -->
+      <div class="bg-gray-800 rounded-2xl p-6 shadow-lg mb-8">
+        <div class="flex items-center space-x-6">
+          <img
+            src="https://tse2.mm.bing.net/th/id/OIP._6JtQc3gvPPI84NlDO5XlQHaHa?pid=Api&P=0&h=220"
+            alt="User Avatar"
+            class="w-24 h-24 rounded-full border-4 border-red-600"
+          />
+          <div>
+            <h3 class="text-xl font-semibold">Muichiro</h3>
+            <p class="text-gray-400">Muichiro@gmail.com</p>
+            <p class="text-gray-400 mt-1">Member since: October 2025</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Account Details -->
+      <div class="grid md:grid-cols-2 gap-6">
+        <!-- Profile Info -->
+        <div class="bg-gray-800 p-6 rounded-2xl shadow-lg">
+          <h3 class="text-xl font-semibold mb-4">Profile Information</h3>
+          <form class="space-y-4">
+            <div>
+              <label class="block text-gray-400 mb-1">Full Name</label>
+              <input
+                type="text"
+                value="Muichiro"
+                class="w-full p-2 rounded bg-gray-900 border border-gray-700 focus:outline-none focus:border-red-500"
+              />
+            </div>
+            <div>
+              <label class="block text-gray-400 mb-1">Email Address</label>
+              <input
+                type="email"
+                value="Muichiro@gmail.com"
+                class="w-full p-2 rounded bg-gray-900 border border-gray-700 focus:outline-none focus:border-red-500"
+              />
+            </div>
+            <button
+              type="submit"
+              class="bg-red-600 hover:bg-red-700 px-4 py-2 rounded text-white font-semibold mt-2"
+            >
+              Save Changes
+            </button>
+          </form>
+        </div>
+
+        <!-- Subscription Info -->
+        <div class="bg-gray-800 p-6 rounded-2xl shadow-lg">
+          <h3 class="text-xl font-semibold mb-4">Subscription Plan</h3>
+          <p class="text-lg mb-2">
+            Current Plan: <span class="text-red-500 font-bold">Premium</span>
+          </p>
+          <p class="text-gray-400 mb-4">
+            Next Billing Date: <span class="text-white">November 10, 2025</span>
+          </p>
+          <button
+            class="bg-gray-700 hover:bg-gray-600 px-4 py-2 rounded text-white font-semibold"
+          >
+            Manage Plan
+          </button>
+        </div>
+      </div>
+
+      <!-- Logout -->
+      <div class="text-center mt-10">
+        <form action="index.html"><button
+          class="bg-red-600 hover:bg-red-700 px-6 py-2 rounded-full font-semibold"
+        >
+          Log Out
+        </button>
+        </form>
+      </div>
+    </main>
+
+    <!-- Footer -->
+    <footer
+      class="text-center text-gray-500 py-6 mt-10 border-t border-gray-800"
+    >
+      © 2025 Kinobox. All rights reserved.
+    </footer>
+  </body>
+</html>

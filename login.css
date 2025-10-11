@@ -1,0 +1,107 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* Reset dasar */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Section login */
+#Login_Page {
+    display: flex;
+    justify-content: center; /* horizontal tengah */
+    align-items: center;     /* vertical tengah */
+    height: 100vh;           /* tinggi layar penuh */
+    background-color: #f0f0f0; /* warna latar belakang */
+   background-image: url(kinoku.png);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    padding: 20px;            /* white space di tepi layar */
+}
+
+/* Kotak login */
+.box {
+    backdrop-filter: blur(5px);
+     /* kotak putih */
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+    width: 300px;            /* lebar kotak */
+    text-align: center;
+}
+
+.remmber {
+  display: inline-flex;
+  align-items: center;
+  gap: 0; /* pastikan tidak ada jarak */
+  justify-content: flex-start;
+  width: 100%;
+}
+
+.remmber input[type="checkbox"] {
+  margin: 0;
+  padding: 0;
+  width: 14px;
+  height: 14px;
+  vertical-align: middle;
+}
+
+.remmber label {
+  margin: 0;
+  padding: 0;
+  font-size: 14px;
+  color: #fff;
+  line-height: 1;
+  cursor: pointer;
+}
+/* Input */
+.box input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Link */
+.box a {
+    display: inline-block;
+    margin-top: 10px;
+    color: #33B5E5;
+    text-decoration: none;
+}
+
+.box a:hover {
+    text-decoration: underline;
+}
+
+/* Span info */
+.box span {
+    display: block;
+    margin-top: 15px;
+    color: #555;
+}
+
+
+.box h2{
+color: rgb(0, 217, 255);
+position: absolute;
+    bottom: 30rem;          
+    right: 43rem;
+
+}
+
+
+
+
+
+
+
+

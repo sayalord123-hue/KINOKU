@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KINOBOX | Buat Akun Baru</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="form-box">
+            <h2>KINOBOX</h2>
+            <p class="subtitle">Buat Akun Baru</p>
+           <form action="index.html" method="get" autocomplete="off">
+                <label>Username</label>
+                <input type="text" placeholder="Masukkan username" name="username" autocomplete="off" required>
+
+                <label>Email</label>
+                <input type="email" placeholder="Masukkan email" required>
+
+                <label>Jenis Kelamin</label>
+                <select required>
+                    <option value="">Pilih</option>
+                    <option value="pria">Pria</option>
+                    <option value="wanita">Wanita</option>
+                </select>
+
+                <label>Kata Sandi</label>
+                <input type="password" placeholder="Masukkan kata sandi" autocomplete="new-password" required>
+
+               <button type="submit" class="btn">Daftar</button>
+
+                <p class="login-text">Sudah punya akun? <a href="index.html">Masuk di sini</a></p>
+            </form>
+        </div>
+    </div>
+</body>
+</html>

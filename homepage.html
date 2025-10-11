@@ -1,0 +1,287 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>KinoBox</title>
+    <link rel="stylesheet" href="hhomepage.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&family=Sen:wght@400;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+    />
+  </head>
+
+  <body>
+    <div class="navbar">
+      <div class="navbar-container">
+        <div class="logo-container">
+          <h1 class="logo">KINOBOX</h1>
+        </div>
+        <div class="menu-container">
+          <ul class="menu-list">
+            <li class="menu-list-item active">Home</li>
+          </ul>
+        </div>
+        <div class="genre-dropdown">
+          <button class="genre-btn">Genres ▼</button>
+          <div class="genre-menu">
+            <a href="#">Action</a>
+            <a href="#">Anime</a>
+            <a href="#">Classics</a>
+            <a href="#">Comedies</a>
+            <a href="#">Crime</a>
+            <a href="#">Documentaries</a>
+            <a href="#">Dramas</a>
+            <a href="#">Fantasy</a>
+            <a href="#">Halloween</a>
+            <a href="#">Hollywood</a>
+            <a href="#">Horror</a>
+            <a href="#">Family</a>
+            <a href="#">Korean</a>
+            <a href="#">Musicals</a>
+            <a href="#">Romance</a>
+            <a href="#">Sci-Fi</a>
+            <a href="#">Sports</a>
+            <a href="#">Thriller</a>
+          </div>
+        </div>
+
+        <div class="profile-container">
+          <div class="search-box">
+            <input type="text" id="searchInput" placeholder="Search..." />
+            <i class="fa fa-search"></i>
+          </div>
+          <a href="movie.html"><img class="profile-picture" src="img/wonwoo.jpeg" alt="" /></a>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div
+        class="featured-content"
+        style="
+          background: linear-gradient(to bottom, rgba(0, 0, 0, 0), #151515),
+            url('img/dps.jpg');
+        "
+      >
+        <img class="featured-title" src="img/dpstitle.png" " alt="" />
+        <p class="featured-desc">
+          At a stuffy New England prep school, an unconventional teacher
+          inspires students to view their studies and lives from a more
+          meaningful perspective.
+        </p>
+        <form action="detail_film3.html"><button class="featured-button">WATCH</button></form>
+      </div>
+      <div class="movie-list-container">
+        <h1 class="movie-list-title">Drama Movies</h1>
+        <div class="movie-list-scroll">
+          <div class="movie-list">
+            <div class="movie-list-item">
+              <img class="movie-list-item-img" src="img/lalaland.jpg" alt="" />
+              <img class="movie-list-item-title" src="img/lalatitle.png" 
+              alt="" />
+              <form action="detail_film.html">
+             <button class="movie-list-item-button">Watch</button>
+             </form>
+            </div>
+            <div class="movie-list-item">
+              <img
+                class="movie-list-item-img"
+                src="img/littlewoman.jpg"
+                alt=""
+              />
+              <img class="movie-list-item-title" src="img/lwtitle.png" 
+              alt=""/>
+              <button class="movie-list-item-button">Watch</button>
+            </div>
+            <div class="movie-list-item">
+              <img class="movie-list-item-img" src="img/meangirls.jpg" alt="" />
+              <img class="movie-list-item-title" src="img/meangirlstitle.png" "
+              alt="" />
+              <button class="movie-list-item-button">Watch</button>
+            </div>
+            <div class="movie-list-item">
+              <img class="movie-list-item-img" src="img/knivesout.jpg" alt="" />
+              <img class="movie-list-item-title" src="img/kotitle.webp" " alt=""
+              />
+              <button class="movie-list-item-button">Watch</button>
+            </div>
+            <div class="movie-list-item">
+              <img class="movie-list-item-img" src="img/cmbyn.jpg" alt="" />
+              <img class="movie-list-item-title" src="img/cmbyntitle.png" "
+              alt="" />
+              <button class="movie-list-item-button">Watch</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="movie-list-container">
+        <h1 class="movie-list-title">Japanese Anime</h1>
+        <div class="movie-list-scroll">
+          <div class="movie-list">
+            <div class="movie-list-item">
+              <img class="movie-list-item-img" src="img/slamdunk.jpg" alt="" />
+              <img class="movie-list-item-title" src="img/sdtitle.png" " alt=""
+              />
+              <button class="movie-list-item-button">Watch</button>
+            </div>
+            <div class="movie-list-item">
+              <img class="movie-list-item-img" src="img/hmc.jpg" alt="" />
+              <img class="movie-list-item-title" src="img/hmctitle.png" " alt=""
+              />
+              <button class="movie-list-item-button">Watch</button>
+            </div>
+            <div class="movie-list-item">
+              <img class="movie-list-item-img" src="img/totoro.jpg" alt="" />
+              <img class="movie-list-item-title" src="img/totorotitle.png" "
+              alt="" />
+              <form action="detail_film2.html"><button class="movie-list-item-button">Watch</button>
+            </form>
+              </div>
+            <div class="movie-list-item">
+              <img class="movie-list-item-img" src="img/kny.jpg" alt="" />
+              <img class="movie-list-item-title" src="img/knytitle.png" " alt=""
+              />
+              <button class="movie-list-item-button">Watch</button>
+            </div>
+            <div class="movie-list-item">
+              <img class="movie-list-item-img" src="img/kiki.jpg" alt="" />
+              <img class="movie-list-item-title" src="img/kikititle.png" "
+              alt="" />
+              <button class="movie-list-item-button">Watch</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div
+        class="featured-content"
+        style="
+          background: linear-gradient(to bottom, rgba(0, 0, 0, 0), #151515),
+            url('img/aladdin.jpg');
+        "
+      >
+        <img class="featured-title" src="img/aladdintitle.png" alt="" />
+        <p class="featured-desc">
+          Kind-hearted street urchin Aladdin vies for the love of beautiful
+          Princess Jasmine of Agrabah. When he finds a magic lamp, he uses the
+          genie's magic power to make himself a prince in order to marry her.
+          He's also on a mission to stop the powerful Jafar, who plots to steal
+          the magic lamp that could make his deepest wishes come true.
+        </p>
+        <button class="featured-button">WATCH</button>
+      </div>
+
+      <div class="movie-list-container">
+        <h1 class="movie-list-title">Drama Movies</h1>
+        <div class="movie-list-scroll">
+          <div class="movie-list">
+            <div class="movie-list-item">
+              <a href="detail_film.html"><img class="movie-list-item-img" src="img/lalaland.jpg" alt="" />
+              <img class="movie-list-item-title" src="img/lalatitle.png" "
+              alt="" />
+              <button class="movie-list-item-button">Watch</button>
+              </a>
+            </div>
+            <div class="movie-list-item">
+              <img
+                class="movie-list-item-img"
+                src="img/littlewoman.jpg"
+                alt=""
+              />
+              <img class="movie-list-item-title" src="img/lwtitle.png" "
+              alt=""/>
+              <button class="movie-list-item-button">Watch</button>
+            </div>
+            <div class="movie-list-item">
+              <img class="movie-list-item-img" src="img/meangirls.jpg" alt="" />
+              <img class="movie-list-item-title" src="img/meangirlstitle.png" "
+              alt="" />
+              <button class="movie-list-item-button">Watch</button>
+            </div>
+            <div class="movie-list-item">
+              <img class="movie-list-item-img" src="img/knivesout.jpg" alt="" />
+              <img class="movie-list-item-title" src="img/kotitle.webp" " alt=""
+              />
+              <button class="movie-list-item-button">Watch</button>
+            </div>
+            <div class="movie-list-item">
+              <img class="movie-list-item-img" src="img/cmbyn.jpg" alt="" />
+              <img class="movie-list-item-title" src="img/cmbyntitle.png" "
+              alt="" />
+              <button class="movie-list-item-button">Watch</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="movie-list-container">
+        <h1 class="movie-list-title">Japanese Anime</h1>
+        <div class="movie-list-scroll">
+          <div class="movie-list">
+            <div class="movie-list-item">
+              <img class="movie-list-item-img" src="img/slamdunk.jpg" alt="" />
+              <img class="movie-list-item-title" src="img/sdtitle.png" " alt=""
+              />
+              <button class="movie-list-item-button">Watch</button>
+            </div>
+            <div class="movie-list-item">
+              <img class="movie-list-item-img" src="img/hmc.jpg" alt="" />
+              <img class="movie-list-item-title" src="img/hmctitle.png" " alt=""
+              />
+              <button class="movie-list-item-button">Watch</button>
+            </div>
+            <div class="movie-list-item">
+              <img class="movie-list-item-img" src="img/totoro.jpg" alt="" />
+              <img class="movie-list-item-title" src="img/totorotitle.png" "
+              alt="" />
+              <button class="movie-list-item-button">Watch</button>
+            </div>
+            <div class="movie-list-item">
+              <img class="movie-list-item-img" src="img/kny.jpg" alt="" />
+              <img class="movie-list-item-title" src="img/knytitle.png" " alt=""
+              />
+              <button class="movie-list-item-button">Watch</button>
+            </div>
+            <div class="movie-list-item">
+              <img class="movie-list-item-img" src="img/kiki.jpg" alt="" />
+              <img class="movie-list-item-title" src="img/kikititle.png" "
+              alt="" />
+              <button class="movie-list-item-button">Watch</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <footer class="footer">
+        <div class="footer-links">
+          <ul>
+            <li><a href="#">Audio Description</a></li>
+            <li><a href="#">Investor Relations</a></li>
+            <li><a href="#">Legal Notices</a></li>
+          </ul>
+          <ul>
+            <li><a href="#">Help Center</a></li>
+            <li><a href="#">Jobs</a></li>
+            <li><a href="#">Cookie Preferences</a></li>
+          </ul>
+          <ul>
+            <li><a href="#">Gift Cards</a></li>
+            <li><a href="#">Terms of Use</a></li>
+            <li><a href="#">Corporate Information</a></li>
+          </ul>
+          <ul>
+            <li><a href="#">Media Center</a></li>
+            <li><a href="#">Privacy</a></li>
+            <li><a href="#">Contact Us</a></li>
+          </ul>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>
